@@ -1,25 +1,37 @@
-# PROYECTO-AULA-WEB
-# 📘 AulaLógica Web
+<p align="center">
+  <img src="banner.svg" alt="banner" width="100%">
+</p>
 
-## 📝 Descripción del proyecto
+
+
+## 📑 Tabla de contenido
+
+- [Descripción del proyecto](#descripción-del-proyecto)
+- [Objetivo general](#objetivo-general)
+- [Equipo e integrantes](#equipo-e-integrantes)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Estructura del repositorio](#estructura-del-repositorio)
+
+---
+
+## Descripción del proyecto
 
 **AulaLógica Web** es un aplicativo web educativo diseñado para acompañar a estudiantes universitarios en el aprendizaje de los fundamentos de programación y algoritmos usando **Java** y **Spring Boot**.
 
-## 🎯 Objetivo general
+## Objetivo general
 
 Diseñar, construir y presentar colaborativamente un aplicativo web didáctico que integre los conocimientos de programación del periodo académico de manera comprensible.
 
-## 👥 Equipo e integrantes
+## Equipo e integrantes
 
 | Integrante | Rol |
 |------------|-----|
 | Esteban Zambrano | Desarrollo Backend |
 | Kevin Garcés | Contenidos Didácticos |
-| Alex Cabrera | Arquitectura |
 | Cristian Gomez | Diseño UI/UX |
 | Erick Cordonez | Documentación |
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 | Categoría | Tecnología |
 |-----------|------------|
@@ -29,26 +41,23 @@ Diseñar, construir y presentar colaborativamente un aplicativo web didáctico q
 | Editor | Visual Studio Code |
 | Control de versiones | Git & GitHub |
 
-## 📂 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 PROYECTO-AULA-WEB/
 │
+├── 🖼️ banner.svg
+│
 ├── 📁 docs/                      Documentación, diagramas, historias de usuario y bosquejos
 │
 ├── 📁 src/                       Código fuente de la aplicación Spring Boot
-│   ├── main/java/.../
+│   ├── 📁 main/java/.../
 │   │   ├── 📁 controller/        Controladores MVC
 │   │   ├── 📁 service/           Lógica de negocio y validaciones
 │   │   └── 📁 model/             Modelos de datos
-│   └── main/resources/
+│   └── 📁 main/resources/
 │       ├── 📁 templates/         Vistas Thymeleaf (HTML)
 │       └── 📁 static/            Archivos estáticos (CSS/Imágenes)
 │
-├── 📄 INICIAR.pdf                Bosquejo - Arquitectura
 └── 📝 README.md                  Información general del proyecto
 ```
-
-## 📚 Documentación
-
-- [Diseño y arquitectura](./docs/diseno_y_arquitectura.md): ficha del problema, requisitos, arquitectura MVC y diagramas.
